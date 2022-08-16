@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "type_traits": "cpp",
+        "fence_painting": "cpp",
+        "vector": "cpp",
+        "xutility": "cpp"
+    }
+}
