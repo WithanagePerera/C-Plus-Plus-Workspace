@@ -1,27 +1,24 @@
 #include <iostream>
-#include <cmath>
+#include <algorithm>
 
 using namespace std;
 
-struct Rectangle(int a, int b, int c, int d)
+struct Rectangle
 {
-    int blx = a;
-    int bly = b;
-    int trx = c;
-    int trY = d;
+    int blx, bly, trx, trY;
 
     int area()
     {
-        return ((trx-blx) * (try-bly));
+        return ((trx-blx) * (trY-bly));
     }
-}
+};
 
 int intersect(Rectangle a, Rectangle b)
 {
     int length, height;
 
     length = max(0, (min(a.trx, b.trx) - max(a.blx, b.blx)));
-    height = max(0, (min(a.try, b.trY) - max(a.bly, b.bly)));
+    height = max(0, (min(a.trY, b.trY) - max(a.bly, b.bly)));
 
     return length*height;
 }
