@@ -4,6 +4,7 @@
         "fence_painting": "cpp",
         "vector": "cpp",
         "xutility": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "utility": "cpp"
     }
 }
