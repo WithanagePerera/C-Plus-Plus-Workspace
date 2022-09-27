@@ -14,7 +14,7 @@ int main()
 
     for (int i = 0; i < languages.size(); i++)
     {
-        languages[i] = 
+        languages[i] = pair<string, int> ()
     }   
     pair<string, int> 
 }
